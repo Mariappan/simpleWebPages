@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    background-image: url("background.jpg");
+    color: darkslategray;
+    line-height: 1.5em;
+}
+
+header {
+    min-height: 5vh;
+}
+
+
+footer {
+    border: solid 3px #fff;
+    text-align: center;
+    justify-content: center;
+    background-color: #333;
+    color: antiquewhite;
+    min-height: 5vh;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    min-height: 90vh;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-family: "Fira Code", monospace;
+}
+
+.inputgroup {
+/*    border: solid 1px;*/
+    display: grid;
+    text-align:left;
+    grid-auto-rows: 1fr 1fr;
+    grid-template-columns: 1fr 8fr;
+    grid-gap: 10px;
+    width: 100%;
+    padding: 5px;
+}
+
+.inputgroupbutton {
+    margin: 15px
+}
+
+#main-nav-bar {
+    color: aqua;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    font-family: Arial;
+}
+
+#main-nav-bar h1 {
+    color: antiquewhite;
+    align-content: center;
+    border: s÷olid 1px;
+}
+
+#main-nav-bar nav ul {
+    padding: 0;
+    text-decoration: none;
+}
+
+#main-nav-bar nav li {
+    display: inline;
+    text-decoration: none;
+    padding-right: 10px;
+/*    border: solid 1px;*/
+/*    margin: 10px;*/
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: wheat;
+    font-size: 16px;
+}
+
+a:hover {
+    color: firebrick;
+}
+
+#name-list {
+    border: solid black 1px;
+    padding: 10px;
+    margin: 10px;
+    min-width: 40%;
+    max-width: 80%
+}
+
+th, td {
+    text-align: center;
+}
+
+#name-list th, #name-list td {
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 12px;
+    width: 200px;
+}
+
+#and-table {
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 12px;
+    width: 200px;
+}
+
+#and-table th {
+    color: maroon;
+    border: dotted black 1px;
+}
+
+#and-table td {
+    color: green;
+    border: dotted black 1px;
+    min-width: 50px;
+}
