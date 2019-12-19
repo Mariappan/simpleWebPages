@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.container {
+    /* Content with border*/
+    width: 85%;
+    /* Makes content at center */
+    margin: auto;
+    background-color: bisque;
+    border: solid seagreen 2px;
+}
+
+h1 {
+    background-color: blueviolet;
+}
+
+#fancy-form {
+    min-height: 100px;
+    align-items: center;
+    justify-items: center
+}
+
+#input-button {
+    text-decoration: none;
+    border: solid rgb(4, 90, 160) 2px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #0b8ec2;
+    font-family: fantasy cursive;
+    font-size: small;
+    font-weight: 700;
+    background-blend-mode: multiply;
+}
+
+#input-group {
+    background-color: blue;
+    transition: width 2s;
+    width: 90%;
+    margin: 10px;
+    justify-self: center;
+}
